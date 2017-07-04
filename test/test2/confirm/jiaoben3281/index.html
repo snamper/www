@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>js alert confirm样式弹出框 - 站长素材</title>
+<link type="text/css" rel="stylesheet" href="css/showBo.css" />
+<script type="text/javascript" src="js/showBo.js"></script>
+</head>
+<body >
+<div id="wrap">
+	<div class="box-163css">
+		<input type="button" value="Showbo.Msg.alert" onclick="Showbo.Msg.alert('您好，请先注册或登录!')">
+		<input type="button" value="Showbo.Msg.confirm" onclick="add()">
+	</div>
+</div>
+
+<div style="text-align:center;margin:10px 0; font:normal 14px/24px 'MicroSoft YaHei';">
+<p>适用浏览器：IE8、360、FireFox、Chrome、Safari、Opera、傲游、搜狗、世界之窗.</p>
+<p>来源：<a href="http://sc.chinaz.com/" target="_blank">站长素材</a></p>
+</div>
+</body>
+</html>
+<script>
+	function add(){
+			var a = Showbo.Msg.confirm('您确定删除这条记录吗？');
+			alert(a);
+	}
+</script>

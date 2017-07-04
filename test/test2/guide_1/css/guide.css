@@ -1,0 +1,302 @@
+*{
+	margin:0;
+	padding: 0;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+body{
+	background: #ecf0f1;
+}
+.code-area pre{
+	padding-left:-100px;
+}
+a{
+	text-decoration: none;
+}
+.install-main .left-side{
+	width: 90px;
+	background:#393d49;
+	height: 887px;
+}
+.install-main .left-side .nav-bar{
+	color:#aeb9c2;
+	font-weight:bold;
+	font:bold 14px/43px "Microsoft Yahei";
+	padding-top:12px;
+}
+.install-main .left-side .nav-bar li{
+	height:43px;
+}
+.install-main .left-side .nav-bar li i{
+	margin-right:8px;
+	margin-left:-6px;
+}
+.install-main .left-side .nav-bar li i.situat-icon{
+	background: url("../images/v4_03.png") no-repeat;
+}
+.install-main .left-side .nav-bar li i.zhang-icon{
+	background: url("../images/v5_06.png") no-repeat;
+}
+.install-main .left-side .nav-bar li i.user-icon{
+	background: url("../images/v1_08.png") no-repeat;
+}
+.install-main .left-side .nav-bar li i.try-icon{
+	background: url("../images/v2_10.png") no-repeat;
+}
+.install-main .left-side .nav-bar li i.eng-icon{
+	background: url("../images/v3_12.png") no-repeat;
+}
+/* 右侧内容开始 */
+.rignt-content{
+	width:80%;
+	height:100%;
+}
+.right-con{
+	position: relative;
+	height: 887px;
+}
+@media (min-width: 1200px){ 
+	.row-fluid [class*="span"] {
+	margin:0;
+	}
+}
+.nav-line{
+	position:relative;
+	margin-top:20px;
+}
+.nav-line p{
+	color:#029be5;
+	font-weight:bolder;
+	width: 70%;
+	border-bottom:1px solid #ddd;
+	font:bold 14px/20px "Microsoft Yahei";
+}
+.nav-line .bot-line{
+	border:1px solid #029be5;
+	height:1px;
+	display: inline-block;
+	width: 85px;
+	background: #029be5;
+	position: absolute;
+	top:19px;
+	left:1px;
+}
+.right-con .instruct-con{
+	width: 900px;
+	border:1px solid #ddd;
+	background: #fff;
+	margin:6% 20%;
+	position: relative;
+}
+.right-con .instruct-con .install-content{
+	width: 825px;
+	margin:0 auto;
+}
+.install-content .install-header{
+	width: 100%;
+	height: 113px;
+	border-bottom:1px solid #ddd;
+	position: relative;
+}
+.install-content .install-header h2{
+	width: 84%;
+	text-align: center;
+	line-height: 113px;
+	font:bold 20px/112px "Microsoft Yahei";
+	float: left;
+}
+.install-content .install-header a{
+	float: right;
+	width: 114px;
+	height: 34px;
+	border:1px solid #ddd;
+	background: #f8fbfc;
+	text-align: center;
+	line-height:34px;
+	margin-top:49px;
+	font-weight:bold;
+	font-family: "Microsoft Yahei";
+	color:#000;
+	text-decoration: none;
+}
+.install-content .install-header a .inst-icon{
+	background: url("../images/v6_11.png") no-repeat;
+	margin-right:10px;
+}
+.install-content .install-header .install-customer{
+	position: absolute;
+	right:-145px;
+	width: 258px;
+	height: 174px;
+	border:1px solid #ddd;
+	top:80px;
+	background:#fff;
+	border-top:2px solid #00bb61;
+}
+.install-content .install-header .install-customer .cus-server{
+	margin: 0 auto;
+	width: 217px;
+	height:auto;
+}
+.install-content .install-header .install-customer .cus-server h3{
+	width: 100%;
+	height:40px;
+	line-height: 40px;
+	font:normal 14px/40px "Microsoft Yahei";
+	border-bottom:1px solid #ddd;
+}
+.install-content .install-header .install-customer .cus-server ul{
+	margin:0;
+	margin-top:24px;
+}
+.install-content .install-header .install-customer .cus-server ul li{
+	clear:both;
+}
+.install-content .install-header .install-customer .cus-server ul li span,.cus-server ul li p{
+	float: left;
+	color:#71737a;
+	font-family: "Microsoft Yahei";
+	font:normal 12px/20px "Microsoft Yahei";
+	cursor: pointer;
+}
+.clear{
+	clear:both;
+}
+.install-content .install-main ul{
+	width: 100%;
+	margin:0;
+}
+.install-content .install-main ul li{
+	width: 100%;
+	height:30px;
+	line-height:30px;
+	font:bold 14px/30px "Microsoft Yahei";
+}
+.install-content .install-main ul li span{
+	padding-left:25px;
+}
+.install-content .code-con{
+	width: 100%;
+	height: 72px;
+	border:1px solid #f8cc7e;
+	background: #fffce7;
+	border-radius: 4px;
+	margin-top:10px;
+	margin-bottom: 30px;
+}
+.install-content .code-con p{
+	font:bold 14px/20px "Microsoft Yahei";
+	padding-left: 20px;
+	padding-top:15px;
+}
+.install-content .code-con p span{
+	color:#029be5;
+}
+.install-content .btn-bg{
+	color: #fff;
+	width: 112px;
+	height: 30px;
+	font-family:"Microsoft Yahei"; 
+}
+.install-content .code-area{
+	width: 100%;
+	height: 246px;
+	margin-top:18px;
+	background: #f8fbfc;
+	
+}
+.install-content .code-area img{
+	margin: 20px;
+	display: inline-block;
+}
+
+/* SDK说明页 */
+.install-content .install-main .insta-exp{
+	width: 100%;
+	height: 55px;
+	border-top:1px solid #ddd;
+	line-height:55px;
+	margin-top:10px;
+	margin-bottom:0;
+	font-weight:bold;
+}
+.install-content .install-main .insta-exp .explain-con{
+	display: inline-block;
+	width: 3px;
+	height: 10px;
+	background: #00bb61;
+	margin-right:15px;
+}
+.install-content .install-main .explain-list{
+	width: 100%;
+	height: 90px;
+	border:1px solid #f8cc7e;
+	background: #fffce7;
+	border-radius: 4px;
+}
+.install-content .install-main .explain-list ol{
+	margin:10px auto;
+	width: 782px;
+}
+.install-content .install-main .explain-list ol li{
+	font:normal 14px/20px "Microsoft Yahei";
+	height:24px;
+	line-height:24px;
+}
+.install-content .install-main .insta-con{
+	width: 100%;
+}
+.install-content .install-main .insta-con .insta-explain{
+	float: left;
+	font-weight:bold;
+	margin-top:25px;
+}
+.install-content .install-main .insta-con .insta-explain .explain-con{
+	display: inline-block;
+	width: 3px;
+	height: 10px;
+	background: #00bb61;
+	margin-right:15px;
+}
+.install-content .install-main .insta-con .insta-btn{
+	width: 240px;
+	float: right;
+	margin-top:22px;
+}
+.install-content .install-main .insta-con .insta-btn a{
+	width: 112px;
+	height: 30px;
+	background: #00bb61;
+	color:#fff;
+	text-align:center;
+	line-height:30px;
+	display: inline-block;
+	font:normal 12px/30px "Microsoft Yahei";
+}
+.install-content .install-main .report-form{
+	margin-top:10px;
+}
+.install-content .install-main .report-form thead tr th:nth-child(6){
+	text-align:center;
+}
+.install-content .install-main .report-form .report-line{
+	border-top:1px solid #0fadeb;
+	margin-top:22px;
+}
+.install-content .install-main .report-form thead tr{
+	background: #daf4ff;
+}
+
+.install-content .install-main .report-form tbody tr td span{
+	font:normal 12px/12px "Microsoft Yahei";
+	color:#01a5ec;
+}
+.install-content .install-main .report-form tbody tr td a{
+	font:normal 12px/12px "Microsoft Yahei";
+	color:#01a5ec; 
+}
+.install-content .install-main .report-form tbody tr td a:nth-child(2){
+	padding-left:20px;
+}

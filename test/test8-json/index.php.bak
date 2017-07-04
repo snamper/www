@@ -1,0 +1,4 @@
+<?php
+$str = '{"A00032":{"status":"u8d26u53f7u5df2u5b58u5728","time":"2017/06/14 13:59:48"},"3700000072":{"status":"u8d26u53f7u5df2u5b58u5728","time":"2017/06/14 13:59:48"},"3700000074":{"status":"u8d26u53f7u5df2u5b58u5728","time":"2017/06/14 13:59:48"},"jq_yun":"{"success":"u65b0u589eu6210u529f"}","result_sendmail":"account is not sendmail","status_sendmail":2,"record_time":"2017-06-14 13:59:48"}';
+echo json_decode($str,true);
+?>

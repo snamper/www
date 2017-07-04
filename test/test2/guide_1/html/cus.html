@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/bootstrap/bootstrap-responsive.css">
+	<link rel="stylesheet" href="../css/guide.css">
+</head>
+<body>
+	<!-- 安装引导页面 -->
+	<div class="container-fluid">
+	  <div class="row-fluid install-main">
+	  	<!--Sidebar content-->
+	    <div class="span1">
+	      <div class="left-side">
+	      	<ul class="nav-bar">
+	      		<li><i class="icon-user situat-icon"></i>概况</li>
+	      		<li><i class="icon-user zhang-icon"></i>站点</li>
+	      		<li><i class="icon-user user-icon"></i>用户</li>
+	      		<li><i class="icon-user try-icon"></i>使用</li>
+	      		<li><i class="icon-user eng-icon"></i>SDK</li>
+	      	</ul>
+	      </div>
+	      
+	    </div>
+	    <!--Body content-->
+	    <div class="span11 rignt-content">
+	    	<div class="nav-line">
+	      		<p>SDK安装引导</p>
+	      		<i class="bot-line"></i>
+	      	</div>
+	      <div class="right-con">
+	      	<div class="instruct-con">
+	      		<div class="install-content">
+	      			<div class="install-header">
+	      				<h2>SDK安装说明</h2>
+	      				<a href="" class="btn-hovera"><i class="icon-user inst-icon"></i>联系客服</a>
+	      				<div class="install-customer" style="display: none;">
+		      				<div class="cus-server">
+			      				<h3>联系客服</h3>
+			      				<ul>
+			      					<li><span>客服电话：</span>
+			      						<p>1591092902<br>13121305137</p>
+			      					</li>
+			      					<li><span>客服QQ：&nbsp;</span>
+			      						<p>235575489</p>
+			      					</li>
+			      				</ul>
+			      			</div>
+	      				</div>
+	      			</div>
+	      			<div class="clear"></div>
+	      			<div class="install-main">
+	      				<ul>
+	      					<li>网站标识码：<span>440000131</span></li>
+	      					<li>网站标识码：<span>广东省人民政府网站</span></li>
+	      					<li>网站标识码：<span>http://www.gd.gov</span></li>
+	      				</ul>
+	      				<div class="code-con">
+	      					<p>将一下JS代码复制到您所需要分析网站页面的《body》标签或页面公共尾部即可<br>
+	      					安装成功后您可在三个月内免费使用<span>用户体验云分析服务</span></p>
+	      				</div>
+	      				<button class="btn btn-success btn-bg" type="button">一键复制</button>
+	      				<div class="code-area">
+	      					<!-- <textarea name="" id="" cols="30" rows="10" style="width:100%;padding-left:-100px;"><body><script language="Javascript" src="loadxmldoc.js">var _trackDataType ="web" var<br>_trackData = _trackData || [];</script><script type="text/javascript"<br>charset="utf-8"id="kpyfx_js_id_10000047"src="//fxsjcj.kaipuyun.cn/<br>count/10000047/10000047.js"></script"<br></body>
+	      					</textarea>-->
+	      					<pre>&lt;body&gt;
+&lt;script language=&quot;Javascript&quot; src=&quot;loadxmldoc.js&quot;&gt;
+var _trackDataType =&quot;web&quot; var
+_trackData = _trackData || [];&lt;/script&gt;&lt;script type=&quot;text/javascript&quot;
+charset=&quot;utf-8&quot;id=&quot;kpyfx_js_id_10000047&quot;src=&quot;//fxsjcj.kaipuyun.cn/
+count/10000047/10000047.js&quot;&gt;&lt;/script&quot;
+&lt;/body&gt;
+							</pre>
+	      				</div>
+	      			</div>
+	      		</div>
+	      	</div>
+	      </div>
+	      
+	    </div>
+	  </div>
+	</div>
+	<script src="../js/jquery-1.11.0.min.js"></script>
+	<script>
+		$('.btn-hovera').hover(function(){
+			$('.install-customer').show()
+		},function(){
+			$('.install-customer').hide()
+		})
+	</script>
+</body>
+</html>

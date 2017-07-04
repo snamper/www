@@ -1,0 +1,33 @@
+array(35) { ["iface.iqiyi.com/api/getMyMenu 
+
+"]=> array(4) { ["did"]=> string(9) "func_imei" ["app_key"]=> string(15) "func_android_id" ["secure_p"]=> string(5) "func3" ["appname"]=> string(9) "爱奇艺" } ["m.client.10010.com/mobileService/defaultSiteMap.htm"]=> array(1) { ["deviceCode"]=> string(5) "func2" } ["lvyou.meituan.com/volga/v1/magpie/route"]=> array(1) { ["utm_content"]=> string(5) "func2" } ["ic.snssdk.com/push/get_service_addrs/"]=> array(2) { ["uuid"]=> string(5) "func2" ["openudid"]=> string(5) "func1" } ["a1.go2yd.com/Website/proxy/open-app-log"]=> array(1) { ["deviceid"]=> string(5) "func2" } ["api.newad.ifeng.com/ClientAdversApi1508 
+
+"]=> array(2) { ["uid"]=> string(5) "func2" ["deviceid"]=> string(5) "func2" } ["iface.iqiyi.com/api/ip2area 
+
+"]=> array(2) { ["device_id"]=> string(5) "func2" ["udid"]=> string(5) "func1" } ["iface2.iqiyi.com/fusion/3.0/patch 
+
+"]=> array(1) { ["aqyid"]=> string(11) "func2_func1" } ["api.k.sohu.com/api/channel/v6/news.go 
+
+"]=> array(2) { ["AndroidID"]=> string(5) "func1" ["imei"]=> string(5) "func2" } ["uniservice.kugou.com/v2/User/qryUser 
+
+"]=> array(1) { ["imei"]=> string(5) "func2" } ["log.stat.kugou.com/mobile/ad.html 
+
+"]=> array(1) { ["mid"]=> string(5) "func2" } ["cdn.moji.com/adlink/common/7f/9d/8e/85/7f9d8e85e922de06ca71da7d63e7b333.png"]=> array(0) { } ["w.inews.qq.com/setPushSwitch"]=> array(2) { ["uid"]=> string(5) "func1" ["devid"]=> string(5) "func2" } ["r.inews.qq.com/appEventNotice"]=> array(2) { ["uid"]=> string(5) "func1" ["origin_imei"]=> string(5) "func2" } ["shnk.fcloud.store.qq.com/16891/32070C667E86BE384868372DC4207DE3.apk 
+
+"]=> array(0) { } ["w.cnews.qq.com/reportUserTime"]=> array(2) { ["uid"]=> string(5) "func1" ["devid"]=> string(5) "func2" } ["r.cnews.qq.com/getLocChl"]=> array(2) { ["uid"]=> string(5) "func1" ["devid"]=> string(5) "func2" } ["commdata.v.qq.com/commdatav2 
+
+"]=> array(2) { ["imei"]=> string(5) "func2" ["device_id"]=> string(5) "func1" } ["sdkconfig.video.qq.com/getmfomat 
+
+"]=> array(2) { ["imei"]=> string(5) "func2" ["device_id"]=> string(5) "func1" } ["config.push.sogou.com/config/sdk"]=> array(1) { ["data"]=> string(5) "func2" } ["w.m.taobao.com"]=> array(1) { ["baid"]=> string(5) "func3" } ["api.mobile.youku.com"]=> array(1) { ["bidfa"]=> string(5) "func3" } ["r.inews.qq.com"]=> array(1) { ["bidfa"]=> string(5) "func3" } ["i.go.sohu.com 
+
+"]=> array(1) { ["bidfa"]=> string(5) "func3" } ["log.umtrack.com"]=> array(1) { ["bidfa"]=> string(5) "func3" } ["api.changba.com 
+
+"]=> array(1) { ["bmacaddress"]=> string(5) "func3" } ["forecast.sina.cn"]=> array(1) { ["buid"]=> string(5) "func3" } ["www.mogujie.com 
+
+"]=> array(1) { ["b_did"]=> string(5) "func3" } ["s.go.sohu.com 
+
+"]=> array(1) { ["bidfa"]=> string(5) "func3" } ["artistpicserver.kuwo.cn"]=> array(1) { ["bidfa"]=> string(5) "func3" } ["user.api.3g.youku.com"]=> array(1) { ["bidfa"]=> string(5) "func3" } ["iface2.iqiyi.com 
+
+"]=> array(1) { ["bqyid"]=> string(5) "func3" } ["mobapi.meilishuo.com 
+
+"]=> array(1) { ["bidfa"]=> string(5) "func3" } ["val.atm.youku.com"]=> array(1) { ["bck"]=> string(5) "func3" } ["user.api.3g.tudou.com"]=> array(1) { ["bidfa"]=> string(5) "func3" } }

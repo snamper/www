@@ -1,0 +1,55 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<div id="tables"></div>
+</body>
+</html>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script>
+    var people = {
+        "programmers": [{"firstName": "Brett", "lastName": "McLaughlin", "email": "aaaa"},
+
+            {"firstName": "Jason", "lastName": "Hunter", "email": "bbbb"},
+
+            {"firstName": "Elliotte", "lastName": "Harold", "email": "cccc"}
+
+        ],
+
+        "authors": [
+
+            {"firstName": "Isaac", "lastName": "Asimov", "genre": "science fiction"},
+
+            {"firstName": "Tad", "lastName": "Williams", "genre": "fantasy"},
+
+            {"firstName": "Frank", "lastName": "Peretti", "genre": "christian fiction"}
+
+        ],
+
+        "musicians": [
+
+            {"firstName": "Eric", "lastName": "Clapton", "instrument": "guitar"},
+
+            {"firstName": "Sergei", "lastName": "Rachmaninoff", "instrument": "piano"}
+
+        ]
+    };
+    var html = '<table border="1"><tr><td>一级目录</td><td>二级目录</td><td>三级目录</td></tr>';
+    for (x in people)
+    {
+        html = html+"<tr><td rowspan='3'>"+x+"</td>";
+        for(j in people[x]){
+            html = html +"<tr><td>"+j+"</td>";
+            html = html +"<td>"+j+"</td>";
+            html = html +"<td>"+j+"</td></tr>";
+        }
+        html = html+'</tr>';
+    }
+    html = html + '</table>';
+    $("#tables").html(html);
+</script>

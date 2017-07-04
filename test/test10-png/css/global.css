@@ -1,0 +1,19 @@
+* {margin: 0; padding: 0;}
+html, body, img{border: 0;}
+img {vertical-align: middle;}
+a, a:hover{text-decoration: none; cursor: pointer;}
+
+.wrapper {width:100%; text-align: center;}
+.banner {width:100%; max-width: 1040px; height: auto; margin: 0 auto;}
+
+
+#outer-section-1 .columns img {width: 100%; height: auto;}
+#outer-section-2 .columns img {width: 100%; height: auto;}
+#outer-section-3 .columns img {width: 100%; height: auto;}
+#outer-section-4 .columns img {width: 100%; height: auto;}
+#outer-section-5 .columns img {width: 100%; height: auto;}
+#outer-section-6 .columns img {width: 100%; height: auto;}
+#outer-section-7 .columns img {width: 100%; height: auto;}
+#outer-section-8 .columns img {width: 100%; height: auto;}
+#outer-section-9 .columns img {width: 100%; height: auto;}
+#outer-section-10 .columns img {width: 100%; height: auto;}

@@ -1,0 +1,33 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+</head>
+<body>
+
+</body>
+</html>
+<script src="//cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+<script type="text/javascript">
+    $(function(){
+        var w=0,tip=$("<b>");
+        tip.css({
+            "z-index":99999,position:"absolute",color:"red",display:"none"
+        }),
+            $("body").append(tip),//页面创建b标签用来显示数字
+            $(document).on("click",function(e){
+                var x=e.pageX,y=e.pageY;//获取点击页面坐标
+                tip.text("+"+ ++w).css({//数字加1
+                    display:"block",top:y-15,left:x,opacity:1//定位显示
+                }).stop(!0,!1).animate({//stop(stopAll,goToEnd),如果发生多次点击时，要停止上一个动画的执行
+                    top:y-180,opacity:0},800,function(){
+                    tip.hide()
+                }),
+                    e.stopPropagation()
+            });
+    });
+</script>

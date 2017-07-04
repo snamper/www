@@ -1,0 +1,27 @@
+云监管首页、开普云按钮、点击量；
+云监管首页、网站监测按钮、点击量；
+云监管首页、绩效考评按钮、点击量；
+云监管首页、大数据按钮、点击量；
+云监管首页、云安全测按钮、点击量；
+云监管首页、云搜索监测按钮、点击量；
+云监管首页、更多按钮、点击量；
+云监管首页、云网盘按钮、点击量；
+云监管首页、云专题按钮、点击量；
+云监管首页、二维码按钮、点击量；
+云监管首页、管理中心按钮、点击量；
+云监管首页、试用手册按钮、点击量；
+云监管首页、退出按钮、点击量；
+
+onclick="_trackData.push(['addaction','云监管首页', '开普云按钮', '点击量', '10.00'])"
+onclick="_trackData.push(['addaction','云监管首页', '网站监测按钮', '点击量', '10.00'])"
+onclick="_trackData.push(['addaction','云监管首页', '绩效考评按钮', '点击量', '10.00'])"
+onclick="_trackData.push(['addaction','云监管首页', '大数据按钮', '点击量', '10.00'])"
+onclick="_trackData.push(['addaction','云监管首页', '云安全测按钮', '点击量', '10.00'])"
+onclick="_trackData.push(['addaction','云监管首页', '云搜索监测按钮', '点击量', '10.00'])"
+onclick="_trackData.push(['addaction','云监管首页', '更多按钮', '点击量', '10.00'])"
+onclick="_trackData.push(['addaction','云监管首页', '云网盘按钮', '点击量', '10.00'])"
+onclick="_trackData.push(['addaction','云监管首页', '云专题按钮', '点击量', '10.00'])"
+onclick="_trackData.push(['addaction','云监管首页', '二维码按钮', '点击量', '10.00'])"
+onclick="_trackData.push(['addaction','云监管首页', '管理中心按钮', '点击量', '10.00'])"
+onclick="_trackData.push(['addaction','云监管首页', '试用手册按钮', '点击量', '10.00'])"
+onclick="_trackData.push(['addaction','云监管首页', '退出按钮', '点击量', '10.00'])"

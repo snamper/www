@@ -1,0 +1,697 @@
+html,
+body,
+div,
+p,
+hr,
+pre,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+table,
+tr,
+td,
+th,
+tfoot,
+tbody,
+thead,
+form,
+input,
+textarea,
+label,
+ul,
+ol,
+dl,
+li,
+dt,
+dd,
+.clearfix:after {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  color: #000;
+  line-height: 22px;
+  text-align: left;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  outline: none;
+  color: #000;
+}
+a:hover {
+  text-decoration: none;
+  color: #ff9724;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+iframe,
+img {
+  border: 0;
+}
+img {
+  vertical-align: middle;
+}
+.clearfix {
+  display: block;
+}
+.clearfix:after {
+  content: '';
+  overflow: hidden;
+  width: 100%;
+  height: 0px;
+  font-size: 0px;
+  display: block;
+  clear: both;
+}
+.part {
+  width: 1000px;
+  margin: 0 auto;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.pr {
+  position: relative;
+}
+.pa {
+  position: absolute;
+}
+.oh {
+  overflow: hidden;
+}
+.bgr {
+  background-repeat: no-repeat;
+}
+.bgpcb {
+  background-position: center bottom;
+}
+.bgpct {
+  background-position: center top;
+}
+.bgplc {
+  background-position: left center;
+}
+.bgpcc {
+  background-position: center center;
+}
+.bk {
+  display: block;
+}
+.pseudo {
+  content: "";
+  position: absolute;
+  display: block;
+}
+.g-opacity0 {
+  opacity: 0;
+}
+iframe {
+  display: block;
+  width: 100%;
+}
+.transition {
+  -webkit-transition: all .2s ease 0s;
+  -moz-transition: all .2s ease 0s;
+  transition: all .2s ease 0s;
+}
+.fm {
+  font-family: 'PingFang SC', 'Lantinghei SC', 'Helvetica Neue', 'Helvetica', 'Arial', 'Microsoft YaHei', '微软雅黑', 'STHeitiSC-Light', 'simsun', '宋体', 'WenQuanYi Zen Hei', 'WenQuanYi Micro Hei', 'sans-serif';
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 ;
+  padding: 0;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  font-weight: normal;
+}
+body {
+  font-family: 'PingFang SC', 'Lantinghei SC', 'Helvetica Neue', 'Helvetica', 'Arial', 'Microsoft YaHei', '微软雅黑', 'STHeitiSC-Light', 'simsun', '宋体', 'WenQuanYi Zen Hei', 'WenQuanYi Micro Hei', 'sans-serif';
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: 'liga', 'kern';
+}
+.box,
+.part {
+  width: 1200px;
+  margin: 0 auto;
+}
+.content {
+  padding-top: 58px;
+  margin: 0 auto;
+}
+.mc {
+  margin: 0 auto;
+}
+.item {
+  width: 100%;
+  padding-top: 48px;
+  overflow: hidden;
+}
+.item:first-child {
+  padding-top: 0;
+}
+.item-border-bottom {
+  border-bottom: 1px dashed #808080;
+}
+.item-tit {
+  position: relative;
+}
+.item-tit:after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 50%;
+  right: 0;
+  width: 100%;
+  height: 1px;
+  margin-top: -1px;
+  background-color: #bfbfbf;
+}
+.item-tit-wrap {
+  position: relative;
+  z-index: 20;
+  display: inline-block;
+  height: 30px;
+  background: #fff url("../img/bg_border_slide.png") left center no-repeat;
+  line-height: 30px;
+  padding-left: 16px;
+  padding-right: 10px;
+  font-size: 24px;
+}
+.item-subtit {
+  padding-top: 27px;
+  font-size: 16px;
+  line-height: 30px;
+  color: #040404;
+  font-weight: bold;
+}
+.item-tit + .item-subtit {
+  padding-top: 25px;
+}
+.item-cont img {
+  /*display: block;*/
+  padding: 26px 0;
+}
+.item-txt,
+.item-list {
+  padding-top: 7px;
+  font-size: 14px;
+  line-height: 26px;
+  color: #808080;
+}
+.item-txt + .item-list,
+.item-list + .item-txt {
+  padding-top: 0;
+}
+.item-list li {
+  position: relative;
+  padding-left: 18px;
+  font-size: 14px;
+  line-height: 26px;
+  color: #808080;
+}
+.item-list li:before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 5px;
+  width: 4px;
+  height: 4px;
+  margin-top: -1px;
+  -webkit-border-radius: 100%;
+     -moz-border-radius: 100%;
+          border-radius: 100%;
+  background-color: #808080;
+}
+.item-tit + .item-cont {
+  padding-top: 17px;
+}
+.item-innerblock {
+  padding: 12px 32px;
+  padding-bottom: 40px;
+  margin: 24px 0;
+  border: 1px dashed #808080;
+}
+.item-innerblock-tit {
+  font-size: 16px;
+  line-height: 52px;
+  color: #3773db;
+}
+.item-innerblock-pic {
+  padding-right: 2px;
+}
+.banner {
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+.banner .box {
+  height: 350px;
+}
+.banner-tit {
+  color: #fff;
+  font-size: 40px;
+  padding: 84px 0 30px;
+}
+.banner-brief {
+  max-width: 50%;
+  color: #fff;
+  font-size: 14px;
+  line-height: 2;
+}
+.banner-nowbuy {
+  display: block;
+  width: 150px;
+  height: 36px;
+  line-height: 36px;
+  margin-top: 30px;
+  border: 1px solid #fff;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+}
+.banner-nowbuy:hover {
+  color: #fff;
+}
+.media .banner {
+  height: 350px;
+  background: url("../img/bg_media_banner.png") center top no-repeat;
+}
+.media .banner .box {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100%;
+  padding-top: 158px;
+  background: url("../img/icon_media_banner_bigdata.png") center 48px no-repeat;
+}
+.media .banner .banner-tit {
+  padding: 0;
+  font-size: 40px;
+  line-height: 64px;
+  color: #318afc;
+  text-align: center;
+}
+.media .banner .banner-brief {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 38px;
+  color: #8090a4;
+  text-align: center;
+}
+.media .content {
+  padding-top: 32px;
+}
+/**
+ * @Author: minihui
+ * @Date:   2017-04-16-Sun-10-17-27
+ * @Last modified by:   minihui
+ * @Last modified time: 2017-04-17-Mon-14-20-18
+ * @Copyright: Copyright © 2000 - 2017 XINHUANET.com　All Rights Reserved.
+制作单位：新华网股份有限公司　　版权所有 新华网股份有限公司
+ */
+/********************************************************************************
+                               foot
+ ********************************************************************************/
+.pr {
+  position: relative;
+}
+.pa {
+  position: absolute;
+}
+.oh {
+  overflow: hidden;
+}
+.bgnr {
+  background-repeat: no-repeat;
+}
+.left {
+  float: left;
+}
+.footer {
+  width: 100%;
+  text-align: center;
+}
+.foot-tel {
+  display: none;
+  height: 80px;
+  font-size: 24px;
+  color: #fff;
+  line-height: 80px;
+  position: relative;
+  background-color: #2080f5;
+  background-image: url("../img/telbg.png");
+}
+.foot-tel i {
+  background-image: url("../img/tel.png");
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  line-height: 80px;
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -220px;
+  margin-top: -15px;
+}
+.foot-nav {
+  width: 1200px;
+  margin: 0 auto;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 25px 0;
+  overflow: hidden;
+}
+.foot-nav-cont {
+  width: 1400px;
+}
+.foot-nav-list {
+  float: left;
+  width: 16%;
+  margin-right: 2%;
+}
+.foot-nav-list li {
+  line-height: 30px;
+  font-size: 12px;
+  text-align: left;
+  color: #808080;
+}
+.foot-nav-list li a {
+  color: #808080;
+}
+.foot-nav-list li:hover a {
+  color: #404040;
+}
+.foot-nav-list .foot-nav-list-imp,
+.foot-nav-list .foot-nav-list-imp a {
+  color: #404040;
+  font-size: 14px;
+}
+.foot-nav-list-imp {
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.foot-copyright {
+  height: 60px;
+  font-size: 12px;
+  color: #b2b2b2;
+  line-height: 24px;
+  padding-top: 20px;
+  text-align: left;
+}
+.footer {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 32px;
+  border-top: 2px solid #2080f5;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+[class*="icon-"],
+[class^="icon-"] {
+  font-family: 'iconfont';
+  speak: none;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.w-1200 {
+  width: 1200px;
+  margin: 0 auto;
+}
+.bo-title {
+  background: url("../img/bo-title2.png") no-repeat left center;
+  height: 2em;
+  color: #404040;
+  font-size: 24px;
+  text-indent: 0.75em;
+  line-height: 2em;
+}
+.part-l,
+.part-r {
+  display: inline-block;
+  vertical-align: top;
+}
+/* table1 */
+.func-table {
+  background-color: #ebeced;
+  border: 1px solid #f0f0f0;
+  margin-top: 40px;
+}
+.func-tr:last-child {
+  margin-bottom: 0;
+}
+.func-tr {
+  font-size: 0;
+  margin-bottom: 30px;
+}
+.func-tr .part-l {
+  width: 70px;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 50px;
+  background: url("../img/icon.png") no-repeat 14px 10px;
+}
+.func-tr .part-r {
+  background-color: #fff;
+  width: 1128px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px 25px;
+  font-size: 14px;
+}
+.func-tr .part-r h3 {
+  line-height: 3em;
+  color: #404040;
+  font-size: 14px;
+}
+.func-tr .part-r p {
+  line-height: 26px;
+  color: #808080;
+}
+/* table2 */
+.tab-list {
+  background-color: #383d41;
+  padding-bottom: 10px;
+}
+.tab-list .part-r {
+  background: url("../img/icon.png") no-repeat;
+}
+.tab-title {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  height: 120px;
+  line-height: 4em;
+}
+.tab-item {
+  background-color: #f5f5f5;
+  margin: 0 1px;
+  font-size: 0;
+  border-bottom: 1px solid #d5d5d5;
+}
+.item-top {
+  height: 86px;
+}
+.item-top .part-l {
+  padding-left: 80px;
+  height: 100%;
+  width: 1038px;
+}
+.item-top .part-r {
+  width: 80px;
+  height: 100%;
+  cursor: pointer;
+  background-position: -782px 26px;
+}
+.item-top .top-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 16px auto 10px auto;
+}
+.item-top .top-content {
+  font-size: 14px;
+  color: #404040;
+}
+.item-content {
+  font-size: 15px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #fff;
+  color: #404040;
+  height: 0;
+  overflow: hidden;
+  -webkit-animation: 1s slidein;
+     -moz-animation: 1s slidein;
+          animation: 1s slidein;
+}
+.item-content p {
+  padding: 10px 25px;
+}
+.item-content span {
+  display: block;
+  line-height: 1.5em;
+}
+.on .item-top {
+  color: #fff;
+  background-color: #00c2de;
+}
+.on .top-content {
+  color: #fff;
+}
+.on .item-content {
+  height: 162px;
+  -webkit-animation: 1s slideout;
+     -moz-animation: 1s slideout;
+          animation: 1s slideout;
+}
+.on .part-r {
+  background-position: -707px 26px;
+}
+@-webkit-keyframes slideout {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 162px;
+  }
+}
+@-moz-keyframes slideout {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 162px;
+  }
+}
+@keyframes slideout {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 162px;
+  }
+}
+@-webkit-keyframes slidein {
+  0% {
+    height: 162px;
+  }
+  100% {
+    height: 0;
+  }
+}
+@-moz-keyframes slidein {
+  0% {
+    height: 162px;
+  }
+  100% {
+    height: 0;
+  }
+}
+@keyframes slidein {
+  0% {
+    height: 162px;
+  }
+  100% {
+    height: 0;
+  }
+}
+/* table3 */
+.w-150 {
+  width: 150px;
+}
+.table {
+  border-color: #ddd;
+  border-collapse: collapse;
+  border-spacing: 0;
+  color: #333;
+  width: 100%;
+  margin-top: 36px;
+}
+.table tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+.thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+.thead th {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  height: 60px;
+}
+.thead .icon-ecs-big {
+  position: relative;
+  color: #04a3cb;
+  margin-right: 4px;
+  font-size: 20px;
+  top: 3px;
+}
+.tbody {
+  border-bottom: 1px solid #f0f0f0;
+  border-right: 1px solid #f0f0f0;
+}
+.tbody td {
+  border-left: 1px solid #f0f0f0;
+  border-top: 1px solid #f0f0f0;
+  padding: 22px;
+  position: relative;
+  line-height: 24px;
+  font-size: 14px;
+  color: #333;
+}
+.tbody h3 img {
+  width: 16px;
+  position: relative;
+  top: 2px;
+  margin-right: 10px;
+}
+.hide {
+  display: none;
+}
+.banner {
+  background: url("../img/bg_banner_slb.png") center top no-repeat;
+}
+
+/*# sourceMappingURL=../maps/subpage_foundation_web_slb.css.map */
